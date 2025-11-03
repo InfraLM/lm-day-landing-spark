@@ -6,7 +6,8 @@ const Speakers = () => {
     {
       name: "Dr. José de Alencar",
       specialty: "Especialista em Medicina de Emergência",
-      hasImage: false,
+      hasImage: true,
+      image: "/speakers/dr-jose-alencar.jpg",
     },
     {
       name: "Dr. Rodrigo Cleto",
