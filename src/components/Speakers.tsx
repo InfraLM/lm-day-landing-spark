@@ -5,19 +5,19 @@ const Speakers = () => {
   const speakers = [
     {
       name: "Dr. José de Alencar",
-      specialty: "Especialista em Medicina de Emergência",
+      specialty: "Referência mundial em Cardiologia",
       hasImage: true,
       image: "/speakers/dr-jose-alencar.jpg",
     },
     {
       name: "Dr. Rodrigo Cleto",
-      specialty: "Especialista em Medicina de Emergência",
+      specialty: "Sócio do maior hospital privado do Centro-Oeste",
       hasImage: true,
       image: "/speakers/dr-rodrigo-cleto-real.jpg",
     },
     {
       name: "Dr. Ian Camilo",
-      specialty: "Especialista em Medicina de Emergência",
+      specialty: "Especialista em Medicina de Emergência e CEO da Liberdade Médica",
       hasImage: true,
       image: "/speakers/dr-ian-camilo-real.jpg",
     },
