@@ -12,13 +12,13 @@ const Speakers = () => {
       name: "Dr. Rodrigo Cleto",
       specialty: "Especialista em Medicina de Emergência",
       hasImage: true,
-      image: "/speakers/dr-rodrigo-cleto.jpg",
+      image: "/speakers/dr-rodrigo-cleto-real.jpg",
     },
     {
       name: "Dr. Ian Camilo",
       specialty: "Especialista em Medicina de Emergência",
       hasImage: true,
-      image: "/speakers/dr-ian-camilo.jpg",
+      image: "/speakers/dr-ian-camilo-real.jpg",
     },
   ];
 
