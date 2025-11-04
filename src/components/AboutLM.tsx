@@ -24,7 +24,7 @@ const AboutLM = () => {
           <span className="text-primary font-semibold">
             Salvar um milhão de vidas através de nossos alunos.
           </span>{" "}
-          Essa jornada começa no LM DAY.
+          Essa jornada começa no Dia da Liberdade Médica.
         </p>
       </div>
     </section>
