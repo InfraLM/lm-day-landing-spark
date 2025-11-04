@@ -14,9 +14,9 @@ const Testimonials = () => {
       role: "Intensivista",
     },
     {
-      text: "O LM DAY foi o ponto de partida da minha jornada. Em um único dia, entendi o que precisava para evoluir na medicina de emergência.",
-      author: "Dr. Rafael Costa",
-      role: "Médico de Pronto Socorro",
+      text: "Vim buscar mais segurança para atender o paciente grave. A formação acadêmica sozinha não nos prepara para isso. Hoje, saio com mais bagagem, mais confiança e mais preparo para o que realmente importa.",
+      author: "Luana Mendonça",
+      role: "Médica de Pronto Socorro",
     },
   ];
 
