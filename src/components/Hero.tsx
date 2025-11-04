@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { getAssetPath } from "@/lib/assets";
+
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center justify-center pt-20 pb-12 px-4 overflow-hidden">
       {/* Background gradient */}
@@ -22,7 +24,7 @@ const Hero = () => {
         
         <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-black px-8 md:px-12 py-6 md:py-8 text-base md:text-xl transition-all hover:scale-105 shadow-xl shadow-primary/20">
           <a href="https://clkdmg.site/pay/dialm" target="_blank" rel="noopener noreferrer">
-            QUERO MINHA VAGA NO LM DAY
+            QUERO MINHA VAGA NO DIA DA LM
           </a>
         </Button>
       </div>
