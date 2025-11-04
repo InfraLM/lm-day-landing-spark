@@ -6,7 +6,7 @@ const FinalCTA = () => {
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-3xl md:text-5xl font-black mb-8 md:mb-12">
           Se a sua missão é salvar na linha de frente,{" "}
-          <span className="text-primary">o LM DAY é o primeiro passo.</span>
+          <span className="text-primary">o Dia da LM é o primeiro passo.</span>
         </h2>
         
         <Button 
@@ -15,7 +15,7 @@ const FinalCTA = () => {
           className="bg-primary hover:bg-primary/90 text-primary-foreground font-black text-xl md:text-2xl px-12 md:px-16 py-6 md:py-8 transition-all hover:scale-105 shadow-xl shadow-primary/30"
         >
           <a href="https://clkdmg.site/pay/dialm" target="_blank" rel="noopener noreferrer">
-            QUERO PARTICIPAR DO LM DAY
+            QUERO PARTICIPAR DO DIA DA LIBERDADE MÉDICA
           </a>
         </Button>
       </div>
