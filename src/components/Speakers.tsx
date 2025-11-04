@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { User } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { getAssetPath } from "@/lib/assets";
 
 const Speakers = () => {
   const pillar1Speakers = [
@@ -11,7 +12,7 @@ const Speakers = () => {
       subtitle: "Como gerar influência genuína em um ambiente dominado pela hierarquia e pelo cansaço",
       description: "A autoridade técnica forma respeito. A autoridade humana cria legado.",
       hasImage: true,
-      image: "/speakers/dr-ian-camilo-real.jpg",
+      image: "speakers/dr-ian-camilo-real.jpg",
     },
     {
       name: "Dr. Rodrigo Cleto",
@@ -20,15 +21,7 @@ const Speakers = () => {
       subtitle: "O que diferencia médicos que apenas sobrevivem dos que constroem legado",
       description: "Liderar na urgência é ter clareza emocional quando todos estão perdidos.",
       hasImage: true,
-      image: "/speakers/dr-rodrigo-cleto-real.jpg",
-    },
-    {
-      name: "Patrícia Zach",
-      specialty: "Especialista em Medicina de Emergência",
-      title: "A voz que lidera: como comunicar com autoridade",
-      subtitle: "Comunicação médica de impacto na linha de frente",
-      description: "Postura, tom e presença são tão importantes quanto a prescrição.",
-      hasImage: false,
+      image: "speakers/dr-rodrigo-cleto-real.jpg",
     },
   ];
 
@@ -40,26 +33,28 @@ const Speakers = () => {
       subtitle: "O raciocínio clínico de quem vive a beira do leito",
       description: "O cérebro de um emergencista em ação.",
       hasImage: true,
-      image: "/speakers/dr-jose-alencar.jpg",
+      image: "speakers/dr-jose-alencar.jpeg",
     },
     {
-      name: "Dra. Priscila Mendonça",
-      specialty: "Especialista em Medicina de Emergência",
-      title: "Plantão sustentável: a mente que suporta o peso da emergência",
-      subtitle: "Como manter performance clínica sem colapsar emocionalmente",
-      description: "Autocuidado não é luxo — é técnica de sobrevivência.",
-      hasImage: false,
+      name: "Dr. Rafael Mendanha",
+      specialty: "Especialista em Psiquiatria e Diretor da Faculdade Cenbrape",
+      title: "O equilíbrio invisível: saúde mental como estratégia de sobrevivência na medicina",
+      subtitle: "Por que tantos médicos se perdem ao tentar salvar os outros?",
+      description: "A psiquiatria como ponte entre propósito e preservação emocional; inteligência emocional como pilar da liberdade.",
+      hasImage: true,
+      image: "speakers/dr-rafael-mendanha.jpg",
     },
   ];
 
   const pillar3Speakers = [
     {
-      name: "Dr. Felipe Arcoverde",
-      specialty: "Especialista em Medicina de Emergência",
-      title: "O raciocínio do plantonista: da anamnese à intubação",
-      subtitle: "Como criar segurança prática para os 15 primeiros minutos do paciente grave",
-      description: "O protocolo ganha vida quando você sabe o porquê de cada decisão.",
-      hasImage: false,
+      name: "Dr. Ibrahim Facuri",
+      specialty: "Médico e CEO do Hospital Jacob Facuri",
+      title: "O médico Antifrágil: como crescer em meio ao caos",
+      subtitle: "Como transformar instabilidade em estratégia",
+      description: "Finanças e mentalidade antifrágil para autonomia e patrimônio sustentável.",
+      hasImage: true,
+      image: "speakers/dr-ibrahim-facuri.jpg",
     },
   ];
 
@@ -70,7 +65,7 @@ const Speakers = () => {
           <div className="aspect-square md:aspect-auto bg-secondary/30 flex items-center justify-center overflow-hidden">
             {speaker.hasImage ? (
               <img 
-                src={speaker.image} 
+                src={getAssetPath(speaker.image)}
                 alt={speaker.name}
                 className="w-full h-full object-cover object-top"
               />
@@ -117,9 +112,6 @@ const Speakers = () => {
             <h3 className="text-2xl md:text-4xl font-black mb-2">
               <span className="text-primary">PILAR 1</span> — LIDERANÇA NA EMERGÊNCIA
             </h3>
-            <p className="text-lg md:text-xl text-muted-foreground italic">
-              Porque técnica salva o corpo, mas liderança salva a equipe.
-            </p>
           </div>
           <div className="space-y-6">
             {pillar1Speakers.map((speaker, index) => (
@@ -134,9 +126,6 @@ const Speakers = () => {
             <h3 className="text-2xl md:text-4xl font-black mb-2">
               <span className="text-primary">PILAR 2</span> — ALTA PERFORMANCE E SAÚDE MENTAL
             </h3>
-            <p className="text-lg md:text-xl text-muted-foreground italic">
-              Cuidar de pacientes começa com cuidar de si.
-            </p>
           </div>
           <div className="space-y-6">
             {pillar2Speakers.map((speaker, index) => (
@@ -149,11 +138,8 @@ const Speakers = () => {
         <div className="mb-16">
           <div className="mb-8">
             <h3 className="text-2xl md:text-4xl font-black mb-2">
-              <span className="text-primary">PILAR 3</span> — DOMÍNIO CLÍNICO E TOMADA DE DECISÃO
+              <span className="text-primary">PILAR 3</span> — FINANÇAS E LIBERDADE
             </h3>
-            <p className="text-lg md:text-xl text-muted-foreground italic">
-              Quando o paciente grave chega, é tarde pra pensar. É hora de agir.
-            </p>
           </div>
           <div className="space-y-6">
             {pillar3Speakers.map((speaker, index) => (
@@ -166,13 +152,10 @@ const Speakers = () => {
         <Card className="bg-gradient-to-br from-primary/10 to-primary/5 border-primary/30 hover:border-primary transition-all mb-12">
           <CardContent className="p-8 md:p-12">
             <h3 className="text-2xl md:text-3xl font-black text-primary mb-4">
-              PAINEL PRÁTICO — CASOS REAIS DE SALA VERMELHA
+              MAIS PALESTRANTES EM BREVE...
             </h3>
             <p className="text-base md:text-lg text-foreground/80 mb-2">
-              <span className="font-semibold">Participantes:</span> Dr. Ian, Dr. Cleto e equipe da Pós em Paciente Grave da Liberdade Médica Educação.
-            </p>
-            <p className="text-base md:text-lg text-foreground/80">
-              Estudo de casos ao vivo com participação do público.
+              <span className="font-semibold">Atenção:</span> Os próximos palestrantes serão anunciados, em breve, no Instagram da Liberdade Médica.
             </p>
           </CardContent>
         </Card>
@@ -191,7 +174,7 @@ const Speakers = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-black text-lg md:text-xl px-8 md:px-12 py-6 md:py-7 transition-all hover:scale-105 shadow-xl shadow-primary/30"
           >
             <a href="https://clkdmg.site/pay/dialm" target="_blank" rel="noopener noreferrer">
-              GARANTA SUA VAGA NO LM DAY
+              GARANTA SUA VAGA NO DIA DA LIBERDADE MÉDICA
             </a>
           </Button>
         </div>
