@@ -6,6 +6,7 @@ const Speakers = () => {
   const pillar1Speakers = [
     {
       name: "Dr. Ian Camilo",
+      specialty: "Especialista em Medicina de Emergência e CEO da Liberdade Médica",
       title: "O médico que inspira: liderança além da técnica",
       subtitle: "Como gerar influência genuína em um ambiente dominado pela hierarquia e pelo cansaço",
       description: "A autoridade técnica forma respeito. A autoridade humana cria legado.",
@@ -14,6 +15,7 @@ const Speakers = () => {
     },
     {
       name: "Dr. Rodrigo Cleto",
+      specialty: "Sócio do maior hospital privado do Centro-Oeste",
       title: "Liderança com propósito",
       subtitle: "O que diferencia médicos que apenas sobrevivem dos que constroem legado",
       description: "Liderar na urgência é ter clareza emocional quando todos estão perdidos.",
@@ -22,6 +24,7 @@ const Speakers = () => {
     },
     {
       name: "Patrícia Zach",
+      specialty: "Especialista em Medicina de Emergência",
       title: "A voz que lidera: como comunicar com autoridade",
       subtitle: "Comunicação médica de impacto na linha de frente",
       description: "Postura, tom e presença são tão importantes quanto a prescrição.",
@@ -32,6 +35,7 @@ const Speakers = () => {
   const pillar2Speakers = [
     {
       name: "Dr. José de Alencar",
+      specialty: "Referência mundial em Cardiologia",
       title: "Alta performance no caos: como decidir rápido e certo",
       subtitle: "O raciocínio clínico de quem vive a beira do leito",
       description: "O cérebro de um emergencista em ação.",
@@ -40,6 +44,7 @@ const Speakers = () => {
     },
     {
       name: "Dra. Priscila Mendonça",
+      specialty: "Especialista em Medicina de Emergência",
       title: "Plantão sustentável: a mente que suporta o peso da emergência",
       subtitle: "Como manter performance clínica sem colapsar emocionalmente",
       description: "Autocuidado não é luxo — é técnica de sobrevivência.",
@@ -50,6 +55,7 @@ const Speakers = () => {
   const pillar3Speakers = [
     {
       name: "Dr. Felipe Arcoverde",
+      specialty: "Especialista em Medicina de Emergência",
       title: "O raciocínio do plantonista: da anamnese à intubação",
       subtitle: "Como criar segurança prática para os 15 primeiros minutos do paciente grave",
       description: "O protocolo ganha vida quando você sabe o porquê de cada decisão.",
@@ -73,9 +79,12 @@ const Speakers = () => {
             )}
           </div>
           <div className="p-6">
-            <h4 className="text-xl md:text-2xl font-bold mb-2 text-primary">
+            <h4 className="text-xl md:text-2xl font-bold mb-1 text-primary">
               {speaker.name}
             </h4>
+            <p className="text-sm md:text-base text-muted-foreground italic mb-3">
+              {speaker.specialty}
+            </p>
             <h5 className="text-lg md:text-xl font-bold mb-2">
               {speaker.title}
             </h5>
@@ -160,7 +169,7 @@ const Speakers = () => {
               PAINEL PRÁTICO — CASOS REAIS DE SALA VERMELHA
             </h3>
             <p className="text-base md:text-lg text-foreground/80 mb-2">
-              <span className="font-semibold">Participantes:</span> Dr. Ian, Dr. Cleto e equipe da Pós em Paciente Grave
+              <span className="font-semibold">Participantes:</span> Dr. Ian, Dr. Cleto e equipe da Pós em Paciente Grave da Liberdade Médica Educação.
             </p>
             <p className="text-base md:text-lg text-foreground/80">
               Estudo de casos ao vivo com participação do público.

@@ -8,12 +8,12 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto text-center max-w-5xl animate-fade-in-up">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
-          O maior evento de urgência e emergência do Brasil —{" "}
-          <span className="text-primary">
-            feito para quem quer liderar e salvar na linha de frente.
-          </span>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-4 leading-tight">
+          O maior evento de urgência e emergência do Brasil
         </h1>
+        <h2 className="text-2xl md:text-4xl lg:text-5xl font-black mb-6 leading-tight text-primary">
+          Feito para quem quer liderar e salvar na linha de frente.
+        </h2>
         
         <p className="text-xl md:text-2xl text-foreground/90 mb-6 max-w-3xl mx-auto font-medium">
           Um dia para entender o que realmente diferencia o médico que sobrevive 
