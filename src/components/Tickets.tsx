@@ -36,7 +36,7 @@ const Tickets = () => {
             </div>
             
             <p className="text-center text-base md:text-lg text-foreground/80 mb-6">
-              Ao garantir seu ingresso para o LM DAY, você pode levar um colega, amigo ou 
+              Ao garantir seu ingresso para o Dia da LM, você pode levar um colega, amigo ou 
               parceiro de plantão como seu convidado oficial — sem custo adicional. Porque 
               formar líderes na linha de frente é uma missão coletiva.{" "}
               <span className="text-primary font-semibold">
