@@ -6,9 +6,13 @@ const Tickets = () => {
   return (
     <section id="tickets" className="py-16 md:py-24 px-4">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-3xl md:text-5xl font-black text-center mb-12 md:mb-16">
-          GARANTA SUA <span className="text-primary">VAGA DUPLA</span>
+        <h2 className="text-3xl md:text-5xl font-black text-center mb-6">
+          COMPRE <span className="text-primary">1 INGRESSO</span>, LEVE 2
         </h2>
+        
+        <p className="text-xl md:text-2xl text-center mb-8 text-foreground/80 max-w-2xl mx-auto">
+          Leve um convidado gratuitamente para viver essa experiência com você.
+        </p>
         
         <Card className="bg-gradient-to-br from-card to-card/50 border-2 border-primary/30 shadow-2xl shadow-primary/10 hover:shadow-primary/20 transition-all">
           <CardContent className="p-8 md:p-12">
@@ -31,6 +35,15 @@ const Tickets = () => {
               </p>
             </div>
             
+            <p className="text-center text-base md:text-lg text-foreground/80 mb-6">
+              Ao garantir seu ingresso para o LM DAY, você pode levar um colega, amigo ou 
+              parceiro de plantão como seu convidado oficial — sem custo adicional. Porque 
+              formar líderes na linha de frente é uma missão coletiva.{" "}
+              <span className="text-primary font-semibold">
+                Oferta válida por tempo limitado.
+              </span>
+            </p>
+            
             <div className="bg-background/50 rounded-xl p-6 mb-8 space-y-4">
               <div className="flex items-start gap-3">
                 <Users className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
@@ -45,7 +58,7 @@ const Tickets = () => {
               <div className="flex items-start gap-3">
                 <Calendar className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
-                  <p className="font-semibold text-base md:text-lg">13 de Dezembro de 2024</p>
+                  <p className="font-semibold text-base md:text-lg">13 de Dezembro</p>
                   <p className="text-sm md:text-base text-muted-foreground">
                     Dia inteiro de conteúdo transformador
                   </p>
@@ -55,9 +68,9 @@ const Tickets = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
-                  <p className="font-semibold text-base md:text-lg">Goiânia, Goiás</p>
+                  <p className="font-semibold text-base md:text-lg">WTC Hotel, Goiânia</p>
                   <p className="text-sm md:text-base text-muted-foreground">
-                    Local será divulgado em breve
+                    Goiás, Brasil
                   </p>
                 </div>
               </div>

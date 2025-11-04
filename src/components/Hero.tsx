@@ -9,25 +9,28 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto text-center max-w-5xl animate-fade-in-up">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
-          O FUTURO DA MEDICINA <br />
-          PERTENCE AOS <span className="text-primary">GENERALISTAS</span>
+          O maior evento de urgência e emergência do Brasil —{" "}
+          <span className="text-primary">
+            feito para quem quer liderar e salvar na linha de frente.
+          </span>
         </h1>
         
-        <p className="text-lg md:text-2xl text-muted-foreground mb-4 font-medium">
-          Goiânia | 13 de dezembro
+        <p className="text-xl md:text-2xl text-foreground/90 mb-6 max-w-3xl mx-auto font-medium">
+          Um dia para entender o que realmente diferencia o médico que sobrevive 
+          do que lidera no plantão.
         </p>
         
-        <p className="text-base md:text-xl text-foreground/80 mb-8 max-w-3xl mx-auto">
-          O maior encontro de medicina de emergência para evoluir sua carreira.
+        <p className="text-lg md:text-xl text-muted-foreground mb-8 font-medium">
+          📍 13 de Dezembro | WTC Hotel, Goiânia
         </p>
         
         <Button 
           asChild
           size="lg"
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold px-8 md:px-12 py-6 md:py-8 text-base md:text-xl transition-all hover:scale-105 shadow-xl shadow-primary/20"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground font-black px-8 md:px-12 py-6 md:py-8 text-base md:text-xl transition-all hover:scale-105 shadow-xl shadow-primary/20"
         >
           <a href="https://clkdmg.site/pay/dialm" target="_blank" rel="noopener noreferrer">
-            QUERO EVOLUIR MINHA CARREIRA
+            QUERO MINHA VAGA NO LM DAY
           </a>
         </Button>
       </div>
