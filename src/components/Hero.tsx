@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-12 px-4 overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center pt-20 pb-12 px-4 overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-card to-background opacity-50"></div>
       
@@ -11,9 +9,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-4 leading-tight">
           O maior evento de urgência e emergência do Brasil
         </h1>
-        <h2 className="text-2xl md:text-4xl lg:text-5xl font-black mb-6 leading-tight text-primary">
-          Feito para quem quer liderar e salvar na linha de frente.
-        </h2>
+        <h2 className="text-2xl md:text-4xl lg:text-5xl font-black mb-6 leading-tight text-primary">Feito para quem quer liderar e salvar na linha de frente</h2>
         
         <p className="text-xl md:text-2xl text-foreground/90 mb-6 max-w-3xl mx-auto font-medium">
           Um dia para entender o que realmente diferencia o médico que sobrevive 
@@ -24,18 +20,12 @@ const Hero = () => {
           📍 13 de Dezembro | WTC Hotel, Goiânia
         </p>
         
-        <Button 
-          asChild
-          size="lg"
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-black px-8 md:px-12 py-6 md:py-8 text-base md:text-xl transition-all hover:scale-105 shadow-xl shadow-primary/20"
-        >
+        <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-black px-8 md:px-12 py-6 md:py-8 text-base md:text-xl transition-all hover:scale-105 shadow-xl shadow-primary/20">
           <a href="https://clkdmg.site/pay/dialm" target="_blank" rel="noopener noreferrer">
             QUERO MINHA VAGA NO LM DAY
           </a>
         </Button>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

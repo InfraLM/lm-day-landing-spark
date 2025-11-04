@@ -1,10 +1,9 @@
 const Opportunity = () => {
-  return (
-    <section className="py-16 md:py-24 px-4 bg-card/30">
+  return <section className="py-16 md:py-24 px-4 bg-card/30">
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-3xl md:text-5xl font-black mb-8">
           Você pode aprender em um dia o que a maioria dos médicos{" "}
-          <span className="text-primary">demora anos para descobrir.</span>
+          <span className="text-primary">demora anos para descobrir</span>
         </h2>
         
         <p className="text-lg md:text-xl text-foreground/80 leading-relaxed">
@@ -15,8 +14,6 @@ const Opportunity = () => {
           de líderes prontos.
         </p>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Opportunity;
